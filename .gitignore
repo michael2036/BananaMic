@@ -1,0 +1,14 @@
+# Build Artifacts
+*.app
+build/
+DerivedData/
+
+# IDE
+.idea/
+.vscode/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# OS
+.DS_Store
