@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_NAME="ToolbarApp"
+APP_NAME="BananaMic"
 APP_DIR="${APP_NAME}.app"
 CONTENTS_DIR="${APP_DIR}/Contents"
 MACOS_DIR="${CONTENTS_DIR}/MacOS"
@@ -39,7 +39,7 @@ cat > "${CONTENTS_DIR}/Info.plist" <<EOF
     <key>LSUIElement</key>
     <true/>
     <key>NSMicrophoneUsageDescription</key>
-    <string>ToolbarApp requires microphone access to record audio.</string>
+    <string>BananaMic requires microphone access to record audio.</string>
 </dict>
 </plist>
 EOF

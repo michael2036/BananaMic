@@ -1,13 +1,13 @@
-# ToolbarApp (Voice-to-LLM)
+# BananaMic (Voice-to-LLM)
 
-ToolbarApp is an ultra-lightweight (< 1MB) native macOS menu bar utility designed for a single powerful workflow: **Recording high-quality, lossless audio instantly to your clipboard, ready to be pasted directly into advanced LLMs like Gemini.**
+BananaMic is an ultra-lightweight (< 1MB) native macOS menu bar utility designed for a single powerful workflow: **Recording high-quality, lossless audio instantly to your clipboard, ready to be pasted directly into advanced LLMs like Gemini.**
 
 ## Why not real-time speech recognition?
 Native macOS dictation and traditional speech-to-text tools process audio in real-time. This often leads to poor transcription quality, missed context, and struggling with complex technical phrasing or punctuation. 
 
 Modern Large Language Models (like Google Gemini) have incredibly powerful multimodal backends. By providing the LLM with the raw audio file, you leverage a significantly superior backend that understands deep context, nuances, technical jargon, and intent much better than a real-time dictation service. 
 
-ToolbarApp acts as the missing bridge: it gives you a 1-click native interface to capture your thoughts and instantly puts the audio file in your clipboard, ready to be pasted (`Cmd + V`) into your LLM chat window.
+BananaMic acts as the missing bridge: it gives you a 1-click native interface to capture your thoughts and instantly puts the audio file in your clipboard, ready to be pasted (`Cmd + V`) into your LLM chat window.
 
 ## Features
 - **Zero Friction**: Sits quietly in your macOS menu bar. 1-click to start recording, 1-click to stop.
@@ -25,7 +25,7 @@ No Xcode required! You can compile this app natively using the tools already bui
    ```bash
    sh build.sh
    ```
-4. A `ToolbarApp.app` file will be instantly generated. Drag it to your `Applications` folder and double-click to launch!
+4. A `BananaMic.app` file will be instantly generated. Drag it to your `Applications` folder and double-click to launch!
 
 ## Usage
 1. Click the gear icon in the menu bar.
